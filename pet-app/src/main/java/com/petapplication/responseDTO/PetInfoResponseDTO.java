@@ -7,19 +7,21 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PetInfoResponseDTO extends ModelBase{
-    
-	private Long id;
+public class PetInfoResponseDTO extends ModelBase {
 
-	private String name;
+    private Long id;
 
-	private String ownerName;
+    private String name;
 
-	private String ownerNo;
+    private String ownerName;
 
-	private String ownerEmail;
+    private String ownerNo;
 
-	private String address;
+    private String ownerEmail;
 
-	private String image_path;
+    private String address;
+
+    private String image_path;
+
+    private Character status;
 }

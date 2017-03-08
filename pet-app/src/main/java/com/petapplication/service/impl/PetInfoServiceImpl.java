@@ -7,26 +7,34 @@ import org.springframework.transaction.annotation.Transactional;
 import com.petapplication.entity.PetInfo;
 import com.petapplication.repository.PetInfoRepository;
 import com.petapplication.service.PetInfoService;
+import java.util.List;
 
 @Service
-@Transactional
 public class PetInfoServiceImpl implements PetInfoService {
 
-	private final PetInfoRepository petInfoRepository;
+    private final PetInfoRepository petInfoRepository;
 
-	@Autowired
-	public PetInfoServiceImpl(PetInfoRepository infoRepository) {
-		this.petInfoRepository = infoRepository;
-	}
+    @Autowired
+    public PetInfoServiceImpl(PetInfoRepository infoRepository) {
+        this.petInfoRepository = infoRepository;
+    }
 
-	public boolean savePetInfo(PetInfo petInfo) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    @Override
+    @Transactional(readOnly = false)
+    public boolean savePetInfo(PetInfo petInfo) {
+        return petInfoRepository.save(petInfo) != null;
+    }
 
-	public boolean deletePetInfo(long id) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    @Override
+    @Transactional(readOnly = false)
+    public void deletePetInfo(long id) {
+        petInfoRepository.delete(id);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<PetInfo> getPetInfos() {
+        return petInfoRepository.findAll();
+    }
 
 }

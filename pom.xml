@@ -15,9 +15,9 @@
     </parent>
     <modules>
         <module>pet-app</module>
-    <module>pet-app-client</module>
-  </modules>
-     <dependencies>
+        <module>pet-app-client</module>
+    </modules>
+    <dependencies>
         
     </dependencies>
 </project>

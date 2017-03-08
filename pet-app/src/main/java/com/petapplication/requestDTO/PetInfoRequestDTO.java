@@ -4,22 +4,31 @@ import com.petapplication.utility.ModelBase;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
 
 @Getter
-@Setter	
-public class PetInfoRequestDTO extends ModelBase{
-	
-	private Long id;
+@Setter
+public class PetInfoRequestDTO extends ModelBase {
 
-	private String name;
+    private Long id;
 
-	private String ownerName;
+    @NotEmpty(message = "Dog name field can't be empty")
+    private String name;
 
-	private String ownerNo;
+    @NotEmpty(message = "Owner name field can't be empty")
+    private String ownerName;
 
-	private String ownerEmail;
+    @NotEmpty(message = "Owner No field can't be empty")
+    private String ownerNo;
 
-	private String address;
+    @Email(message = "Owner email can't be empty")
+    private String ownerEmail;
 
-	private String image_path;
+    @NotEmpty(message = "Address field can't be empty")
+    private String address;
+
+    private String image_path;
+
+    private Character status;
 }
