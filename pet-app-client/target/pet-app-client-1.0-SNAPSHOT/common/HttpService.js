@@ -12,8 +12,8 @@ angular.module('PetApp').service('HttpService', function ($http) {
                         }
                 );
     };
-    service.post = function (resource,data) {
-        return $http.post(url + resource,data)
+    service.post = function (resource, data) {
+        return $http.post(service.url + resource, data)
                 .then(
                         function (success) {
                             return success;

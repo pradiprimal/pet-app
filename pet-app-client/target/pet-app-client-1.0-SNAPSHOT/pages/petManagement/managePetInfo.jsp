@@ -13,5 +13,11 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <!--<pre>{{petInfos|json}}</pre>-->
+        <div ng-repeat=" petInfo in petInfos">
+            <div>
+                <img ng-src="data:image/;base64,{{petInfo.image_path}}">
+            </div>
+        </div>
     </body>
 </html>

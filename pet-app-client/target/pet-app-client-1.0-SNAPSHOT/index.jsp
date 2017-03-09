@@ -15,9 +15,16 @@
         <script src="pages/js/angular.min.js"></script>
         <script src="pages/js/angular-route.js"></script>
         <script src="app.js"></script>
+        <script src="common/directive/fileUpload.js"></script>
+        <script src="pages/js/angular-base64.min.js"></script>
+        <script src="pages/js/angular-base64-upload.js"></script>
         <!--<script src="pages/js/bootstrap.min.js"></script>-->
     </head>
     <body ng-app="PetApp">
+        <div>
+            <a href="#/add" target="_self">Add</a>
+            <a href="#/manage" target="_self">Manage</a>
+        </div>
         <div ng-view="">
 
         </div>
