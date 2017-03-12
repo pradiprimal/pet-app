@@ -21,7 +21,7 @@ public class PetInfoResponseDTO extends ModelBase {
 
     private String address;
 
-    private String image_path;
+    private String imagePath;
 
     private Character status;
 }

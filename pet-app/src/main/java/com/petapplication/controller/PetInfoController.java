@@ -38,12 +38,11 @@ public class PetInfoController {
     @RequestMapping(WebApiConstant.SAVE_PET_INFO)
     @PostMapping
     public ResponseEntity<Void> savePetInfo(@RequestBody @Valid PetInfoRequestDTO petInfoRequestDTO) {
-        System.out.println("Called!!");
         petInfoService.savePetInfo(PetInfoUtils.convertIntoEntity(petInfoRequestDTO));
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-//    @CrossOrigin(origins = "http://localhost:8084")
+
     @GetMapping(WebApiConstant.GET_ALL_PET_INFO)
     public ResponseEntity<List<PetInfoResponseDTO>> getAllPetInfo() {
         List<PetInfo> petInfos = petInfoService.getPetInfos();

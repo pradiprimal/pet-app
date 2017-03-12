@@ -16,6 +16,20 @@ angular.module('PetApp').service('HttpService', function ($http) {
         return $http.post(service.url + resource, data)
                 .then(
                         function (success) {
+                            console.log('success' + success);
+                            return success;
+                        },
+                        function (error) {
+                            console.log('err' + error);
+                            return error;
+                        }
+                );
+    };
+
+    service.delete = function (resource) {
+        return $http.delete(service.url + resource)
+                .then(
+                        function (success) {
                             return success;
                         },
                         function (error) {

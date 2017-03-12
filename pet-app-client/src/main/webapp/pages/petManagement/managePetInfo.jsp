@@ -4,20 +4,41 @@
     Author     : admin
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-        <!--<pre>{{petInfos|json}}</pre>-->
-        <div ng-repeat=" petInfo in petInfos">
-            <div>
-                <img ng-src="data:image/;base64,{{petInfo.image_path}}">
-            </div>
-        </div>
-    </body>
-</html>
+<!--<table class="table">
+    <thead>
+        <tr>
+            <th>S.N</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Owner Name</th>
+            <th>Contact No</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="petInfo in petInfos">
+            <td>{{$index+1}}</td>
+            <td><img ng-src="data:image/;base64,{{petInfo.imagePath}}" style="width: 50px;height: 50px"></td>
+            <td>{{petInfo.name}}</td>
+            <td>{{petInfo.ownerName}}</td>
+            <td>{{petInfo.ownerNo}}</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>-->
+<div>
+    <div ng-show="errorMessage.lenght !== 0"><span style="color: red">{{errorMessage}}</span></div>
+    <table ng-table="tableParams" class="table table-condensed table-bordered table-striped">
+        <tr ng-repeat="row in $data">
+            <td data-title="'S.N'">{{$index + 1}}</td>
+            <td data-title="'Image'"><img ng-src="data:image/;base64,{{row.imagePath}}" style="width: 50px;height: 50px"></td>
+            <td data-title="'Name'" filter="{name: 'text'}" sortable="'name'">{{row.name}}</td>
+            <td data-title="'Owner Name'">{{row.ownerName}}</td>
+            <td data-title="'Owner No'" filter="{ownerNo: 'text'}" sortable="'ownerNo'">{{row.ownerNo}}</td>
+            <td data-title="'Action'">
+                <a ng-click="editPetInfo(row)">Edit</a>
+                <a ng-click="deletePetInfo(row)">Delete</a>
+            </td>
+        </tr>
+    </table>
+</div>

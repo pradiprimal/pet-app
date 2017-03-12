@@ -1,4 +1,10 @@
-angular.module('PetApp', ['ngRoute','base64','naif.base64']);
+angular.module('PetApp', [
+    'ngRoute',
+    'base64',
+    'naif.base64',
+    'ngTable',
+    'ui.bootstrap'
+]);
 
 angular.module('PetApp').config(function ($routeProvider) {
     $routeProvider

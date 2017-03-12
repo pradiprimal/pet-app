@@ -14,10 +14,14 @@
         <title>Pet App</title>
         <script src="pages/js/angular.min.js"></script>
         <script src="pages/js/angular-route.js"></script>
+        <script src="pages/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+        <link rel="stylesheet"; href="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.css">
+        <script src="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.js"></script>
         <script src="app.js"></script>
         <script src="common/directive/fileUpload.js"></script>
         <script src="pages/js/angular-base64.min.js"></script>
         <script src="pages/js/angular-base64-upload.js"></script>
+
         <!--<script src="pages/js/bootstrap.min.js"></script>-->
     </head>
     <body ng-app="PetApp">
@@ -31,5 +35,6 @@
         <script src="<c:url value="/common/HttpService.js"/>"></script>
         <script src="<c:url value="/pages/petManagement/petManagementService/PetManagementService.js"/>"></script>
         <script src="<c:url value="/pages/petManagement/petManagementController/PetManagementController.js"/>"></script>
+        <script src="<c:url value="/pages/petManagement/modal/controller/EditPetInfoModalController.js"/>"></script>
     </body>
 </html>

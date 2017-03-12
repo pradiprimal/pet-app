@@ -9,4 +9,8 @@ angular.module('PetApp').service('PetManagementService', function (HttpService) 
     service.getPetInfo = function () {
         return HttpService.get('get-all');
     };
+    
+    service.deletePetInfo=function(id){
+        return HttpService.delete('delete-pet/'+id);  
+    };
 });
