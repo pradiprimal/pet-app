@@ -1,5 +1,6 @@
 package com.petapplication.exception;
 
+import com.petapplication.responseDTO.SingleValueResponse;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.http.HttpStatus;
@@ -28,6 +29,30 @@ public class GlobalExceptionHandler {
     public DataBindingErrorMessage handelMethodArgumentNotValidException(MethodArgumentNotValidException exception) {
         exception.printStackTrace();
         return dataBindingErrorMessagesConverter(exception.getBindingResult());
+    }
+
+    @ExceptionHandler(ContentConflictException.class)
+    @ResponseStatus(HttpStatus.CONFLICT)
+    public SingleValueResponse handelContentConflictException(RuntimeException runtimeException) {
+        runtimeException.printStackTrace();
+        SingleValueResponse singleValueResponse = new SingleValueResponse(runtimeException.getMessage());
+        return singleValueResponse;
+    }
+
+    @ExceptionHandler(ContentNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public SingleValueResponse handelContentNotFoundException(RuntimeException runtimeException) {
+        runtimeException.printStackTrace();
+        SingleValueResponse singleValueResponse = new SingleValueResponse(runtimeException.getMessage());
+        return singleValueResponse;
+    }
+
+    @ExceptionHandler(OperationFailedException.class)
+    @ResponseStatus(HttpStatus.EXPECTATION_FAILED)
+    public SingleValueResponse handleOperationFailedException(RuntimeException runtimeException) {
+        runtimeException.printStackTrace();
+        SingleValueResponse valueResponse = new SingleValueResponse(runtimeException.getMessage());
+        return valueResponse;
     }
 
     public DataBindingErrorMessage dataBindingErrorMessagesConverter(BindingResult bindingResult) {

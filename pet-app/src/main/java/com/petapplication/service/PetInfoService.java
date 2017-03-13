@@ -13,6 +13,12 @@ public interface PetInfoService {
 
     void deletePetInfo(long id);
 
-    public List<PetInfo> getPetInfos();
+    List<PetInfo> getPetInfos();
+
+    boolean isEmailExist(String email);
+
+    boolean isMobileNoExist(String mobileNo);
+
+    PetInfo findById(long id);
 
 }

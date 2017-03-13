@@ -37,4 +37,19 @@ public class PetInfoServiceImpl implements PetInfoService {
         return petInfoRepository.findAll();
     }
 
+    @Override
+    public boolean isEmailExist(String email) {
+        return petInfoRepository.findByOwnerEmail(email) != null;
+    }
+
+    @Override
+    public boolean isMobileNoExist(String mobileNo) {
+        return petInfoRepository.findByOwnerNo(mobileNo) != null;
+    }
+
+    @Override
+    public PetInfo findById(long id) {
+        return petInfoRepository.findOne(id);
+    }
+
 }

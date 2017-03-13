@@ -32,8 +32,6 @@ public class PetInfoRequestDTO extends ModelBase {
     @Size(min = 2, max = 50, message = "Address must be between {min} and {max}")
     private String address;
 
-    private String image_path;
-
     private Character status;
 
     private String image;

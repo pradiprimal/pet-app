@@ -20,6 +20,10 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
 
     vm.errorMessage = '';
 
+    vm.serverSideMessage = '';
+
+
+
     vm.savePetInfo = savePetInfo;
 
     vm.getAllPetInfos = getAllPetInfos;
@@ -39,12 +43,20 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
         PetManagementService.savePetInfo(vm.petInfo)
                 .then(
                         function (data) {
-                            console.log('SUCCESS');
-                            console.log(data);
+//                            console.log(data);
+                            vm.successMessage = 'Pet name ' + vm.petInfo.name + ' created successfully';
+                            resetData();
                         },
                         function (err) {
-                            console.log('ERROR');
-                            console.log(err);
+                            if (err.data.code === 409) {
+                                vm.errorMessage = err.data.message;
+                            } else if (err.status === 400) {
+                                vm.errorMessage = err.data.errorMessage;
+                                vm.serverSideMessage = err.data;
+                            } else {
+                                vm.errorMessage = err.data.message;
+                            }
+//                            console.log(err);
                         }
                 );
     }
@@ -55,13 +67,11 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
                 .then(
                         function (success) {
                             vm.petInfos = success.data;
-                            vm.tableParams = new NgTableParams({count: 2}, {dataset: vm.petInfos});
-                            console.log('SUCCESS');
-                            console.log(success);
+                            vm.tableParams = new NgTableParams({count: 5}, {dataset: vm.petInfos});
+//                            console.log(success);
                         },
                         function (err) {
-                            console.log('ERRROR');
-                            console.log(err);
+//                            console.log(err);
                         }
                 );
     }
@@ -101,15 +111,15 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
     function updatePetInfo(petInfo) {
         resetMessage();
         petInfo.imagePath = '';
-        PetManagementService.savePetInfo(petInfo)
+        PetManagementService.updatePetInfo(petInfo)
                 .then(
                         function (data) {
-                            console.log('SUCCESS');
-                            console.log(data);
+                            vm.successMessage = 'Pet name ' + petInfo.name + ' updated successfully';
+//                            console.log(data);
+                            getAllPetInfos();
                         },
                         function (err) {
-                            console.log('ERROR');
-                            console.log(err);
+//                            console.log(err);
                         }
                 );
     }
@@ -117,8 +127,8 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
 
     function resetMessage() {
         vm.successMessage = '';
-
         vm.errorMessage = '';
+        vm.serverSideMessage = '';
     }
 
     function deletePetInfo(petInfo) {
@@ -126,13 +136,23 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
         PetManagementService.deletePetInfo(petInfo.id)
                 .then(
                         function (data) {
-                            console.log('SUCCESS');
-                            console.log(data);
+                            vm.successMessage = 'Pet name ' + petInfo.name + ' deleted successfully';
+                            getAllPetInfos();
                         },
                         function (err) {
-                            console.log('ERROR');
-                            console.log(err);
+//                            console.log(err);
                         }
                 );
+    }
+
+    function resetData() {
+        vm.petInfo = {
+            name: '',
+            ownerName: '',
+            ownerNo: '',
+            ownerEmail: '',
+            address: '',
+            image: ''
+        };
     }
 });

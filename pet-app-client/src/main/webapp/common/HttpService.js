@@ -1,4 +1,4 @@
-angular.module('PetApp').service('HttpService', function ($http) {
+angular.module('PetApp').service('HttpService', function ($http, $q) {
     var service = this;
     service.url = 'http://localhost:8080/api/';
     service.get = function (resource) {
@@ -8,7 +8,7 @@ angular.module('PetApp').service('HttpService', function ($http) {
                             return success;
                         },
                         function (error) {
-                            return error;
+                            return $q.reject(error);
                         }
                 );
     };
@@ -16,12 +16,10 @@ angular.module('PetApp').service('HttpService', function ($http) {
         return $http.post(service.url + resource, data)
                 .then(
                         function (success) {
-                            console.log('success' + success);
                             return success;
                         },
                         function (error) {
-                            console.log('err' + error);
-                            return error;
+                            return $q.reject(error);
                         }
                 );
     };
@@ -33,7 +31,18 @@ angular.module('PetApp').service('HttpService', function ($http) {
                             return success;
                         },
                         function (error) {
-                            return error;
+                            return $q.reject(error);
+                        }
+                );
+    };
+    service.put = function (resource,data) {
+        return $http.put(service.url + resource,data)
+                .then(
+                        function (success) {
+                            return success;
+                        },
+                        function (error) {
+                            return $q.reject(error);
                         }
                 );
     };
