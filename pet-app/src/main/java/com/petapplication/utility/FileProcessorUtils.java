@@ -12,12 +12,14 @@ import java.io.InputStream;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.springframework.stereotype.Component;
 import org.springframework.util.Base64Utils;
 
 /**
  *
  * @author admin
  */
+@Component
 public class FileProcessorUtils {
 
     public static final String FILE_DIRECTIVE = "D://petImage";

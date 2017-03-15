@@ -26,8 +26,8 @@
     </head>
     <body ng-app="PetApp">
         <div>
-            <a href="#/add" target="_self">Add</a>
-            <a href="#/manage" target="_self">Manage</a>
+            <a href="#/add">Add</a>
+            <a href="#/manage">Manage</a>
         </div>
         <div ng-view="">
 

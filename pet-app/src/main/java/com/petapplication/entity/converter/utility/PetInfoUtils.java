@@ -21,12 +21,12 @@ public class PetInfoUtils {
         petInfo.setId(petInfoRequestDTO.getId());
         petInfo.setName(petInfoRequestDTO.getName());
         if (petInfoService.isEmailExist(petInfoRequestDTO.getOwnerEmail())) {
-            throw new ContentConflictException("Sorry! email address already exist.");
+            throw new ContentConflictException("Sorry! email address '" + petInfoRequestDTO.getOwnerEmail() + "' already exist.");
         }
         petInfo.setOwnerEmail(petInfoRequestDTO.getOwnerEmail());
         petInfo.setOwnerName(petInfoRequestDTO.getOwnerName());
         if (petInfoService.isMobileNoExist(petInfoRequestDTO.getOwnerNo())) {
-            throw new ContentConflictException("Sorry! mobile no already exist.");
+            throw new ContentConflictException("Sorry! mobile no '" + petInfoRequestDTO.getOwnerNo() + "' already exist.");
         }
         petInfo.setOwnerNo(petInfoRequestDTO.getOwnerNo());
         if (petInfoRequestDTO.getImage() != null && !petInfoRequestDTO.getImage().isEmpty()) {
