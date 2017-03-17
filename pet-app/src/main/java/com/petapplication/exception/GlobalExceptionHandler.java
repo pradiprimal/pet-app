@@ -1,6 +1,7 @@
 package com.petapplication.exception;
 
 import com.petapplication.responseDTO.SingleValueResponse;
+import io.jsonwebtoken.ExpiredJwtException;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.http.HttpStatus;
@@ -53,6 +54,22 @@ public class GlobalExceptionHandler {
         runtimeException.printStackTrace();
         SingleValueResponse valueResponse = new SingleValueResponse(runtimeException.getMessage());
         return valueResponse;
+    }
+
+    @ExceptionHandler(UnauthorizedExceptionHandler.class)
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
+    public SingleValueResponse handleUnauthorizedResourceAccess(RuntimeException runtimeException) {
+        runtimeException.printStackTrace();
+        SingleValueResponse singleValueResponse = new SingleValueResponse(runtimeException.getMessage());
+        return singleValueResponse;
+    }
+
+    @ExceptionHandler(ExpiredJwtException.class)
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
+    public SingleValueResponse handleExpiredJwtException(RuntimeException exception) {
+        exception.printStackTrace();
+        SingleValueResponse singleValueResponse = new SingleValueResponse("Token Expired");
+        return singleValueResponse;
     }
 
     public DataBindingErrorMessage dataBindingErrorMessagesConverter(BindingResult bindingResult) {

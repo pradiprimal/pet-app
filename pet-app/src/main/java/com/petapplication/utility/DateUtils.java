@@ -13,8 +13,16 @@ public class DateUtils {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
         long currentMilliSecond = calendar.getTimeInMillis();
-        System.out.println(currentMilliSecond);
-        String stringDate =String.valueOf(currentMilliSecond);
+        String stringDate = String.valueOf(currentMilliSecond);
         return stringDate;
+    }
+
+    public static Date addFiveMinuteToCurrentDate() {
+        Long millisecond = Long.valueOf(getCurrentMillisecond(new Date()));
+        System.out.println(millisecond + 3000000);
+        return new Date(millisecond + 30000);
+    }
+    public static void main(String[] args) {
+        addFiveMinuteToCurrentDate();
     }
 }

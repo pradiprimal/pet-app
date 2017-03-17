@@ -12,4 +12,6 @@ public class WebApiConstant {
     public static final String DELETE_PET_INFO = "/delete-pet/{id}";
     public static final String GET_ALL_PET_INFO = "/get-all";
 
+    public static final String LOGIN_API = "/authenticate";
+
 }

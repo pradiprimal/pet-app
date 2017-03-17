@@ -21,18 +21,29 @@
         <script src="common/directive/fileUpload.js"></script>
         <script src="pages/js/angular-base64.min.js"></script>
         <script src="pages/js/angular-base64-upload.js"></script>
+        <script src="pages/js/ngStorage.js"></script>
 
         <!--<script src="pages/js/bootstrap.min.js"></script>-->
     </head>
     <body ng-app="PetApp">
-        <div>
+        <div ng-show="isLoggedIn">
             <a href="#/add">Add</a>
             <a href="#/manage">Manage</a>
         </div>
         <div ng-view="">
 
         </div>
+
+        <!-- Common Http Service -->
+        <script src="<c:url value="/common/TokenService.js"/>"></script>
         <script src="<c:url value="/common/HttpService.js"/>"></script>
+
+
+        <!--Login -->
+        <script src="<c:url value="/pages/login/LoginService.js"/>"></script>
+        <script src="<c:url value="/pages/login/LoginController.js"/>"></script>
+
+        <!-- Pet Management-->
         <script src="<c:url value="/pages/petManagement/petManagementService/PetManagementService.js"/>"></script>
         <script src="<c:url value="/pages/petManagement/petManagementController/PetManagementController.js"/>"></script>
         <script src="<c:url value="/pages/petManagement/modal/controller/EditPetInfoModalController.js"/>"></script>

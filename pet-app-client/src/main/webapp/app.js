@@ -3,7 +3,8 @@ angular.module('PetApp', [
     'base64',
     'naif.base64',
     'ngTable',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ngStorage'
 ]);
 
 angular.module('PetApp').config(function ($routeProvider) {
@@ -16,10 +17,15 @@ angular.module('PetApp').config(function ($routeProvider) {
                 templateUrl: '/pages/petManagement/managePetInfo.jsp',
                 controller: 'PetManagementController'
             })
-            .when("/home", {
-                templateUrl: '/index.jsp'
+            .when("/login", {
+                templateUrl: '/pages/login/login.jsp',
+                controller: 'LoginController'
             })
-            .otherwise({redirectTo: '/add'});
+            .when("/dashboard", {
+                templateUrl: '/pages/dashboard/dashboard.jsp',
+                controller: 'LoginController'
+            })
+            .otherwise({redirectTo: '/login'});
 });
 
 angular.module('PetApp').config(['$locationProvider', function ($locationProvider) {

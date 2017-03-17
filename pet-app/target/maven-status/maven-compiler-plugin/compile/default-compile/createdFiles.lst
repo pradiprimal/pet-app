@@ -14,11 +14,12 @@ com\petapplication\exception\ContentNotFoundException.class
 com\petapplication\config\WebConfig.class
 com\petapplication\controller\PetInfoController.class
 com\petapplication\utility\FileProcessorUtils.class
+com\petapplication\aop\Test.class
 com\petapplication\entity\PetInfo.class
-com\petapplication\utility\Assignment.class
 com\petapplication\exception\GlobalExceptionHandler.class
 com\petapplication\exception\DataBindingErrorMessage$Error.class
 com\petapplication\exception\ErrorMessage.class
 com\petapplication\PetApplicationStarter.class
+com\petapplication\exception\UnauthorizedExceptionHandler.class
 com\petapplication\responseDTO\PetInfoResponseDTO.class
 com\petapplication\service\PetInfoService.class
