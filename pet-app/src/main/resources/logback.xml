@@ -12,7 +12,7 @@
         <file>D:/log/log-file.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>log-file.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>D:/log/log-file.%d{yyyy-MM-dd}.log</fileNamePattern>
             <!--<maxFileSize>1KB</maxFileSize>-->
         </rollingPolicy>
 
