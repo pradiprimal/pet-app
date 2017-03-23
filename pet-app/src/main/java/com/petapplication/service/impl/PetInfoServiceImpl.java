@@ -34,7 +34,7 @@ public class PetInfoServiceImpl implements PetInfoService {
     @Override
     @Transactional(readOnly = true)
     public List<PetInfo> getPetInfos() {
-        return petInfoRepository.findAll();
+        return petInfoRepository.getAllPetInfos();
     }
 
     @Override

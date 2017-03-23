@@ -62,5 +62,4 @@ public class HandleLoginAOP {
         LOG.info("EXITING FROM METHOD : {}()", joinPoint.getSignature().getName());
         LOG.info("RETURN VALUE : {}", object);
     }
-
 }

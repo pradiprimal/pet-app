@@ -1,11 +1,13 @@
 com\petapplication\requestDTO\PetInfoRequestDTO.class
 com\petapplication\service\impl\PetInfoServiceImpl.class
+com\petapplication\aop\HandleLoginAOP.class
 com\petapplication\repository\PetInfoRepository.class
 com\petapplication\exception\NoContentException.class
+com\petapplication\dao\PetInfoCustomRepository.class
+com\petapplication\dao\impl\PetInfoCustomRepositoryImpl.class
 com\petapplication\entity\converter\utility\PetInfoUtils.class
 com\petapplication\resource\constant\WebApiConstant.class
 com\petapplication\controller\AuthenticationController.class
-com\petapplication\aop\HandelLoginAOP.class
 com\petapplication\exception\OperationFailedException.class
 com\petapplication\requestDTO\LoginRequestDTO.class
 com\petapplication\utility\ModelBase.class
@@ -15,6 +17,7 @@ com\petapplication\exception\ContentConflictException.class
 com\petapplication\responseDTO\SingleValueResponse.class
 com\petapplication\utility\DateUtils.class
 com\petapplication\exception\ContentNotFoundException.class
+com\petapplication\entity\QPetInfo.class
 com\petapplication\config\WebConfig.class
 com\petapplication\controller\PetInfoController.class
 com\petapplication\utility\FileProcessorUtils.class
@@ -25,6 +28,7 @@ com\petapplication\exception\GlobalExceptionHandler.class
 com\petapplication\exception\DataBindingErrorMessage$Error.class
 com\petapplication\exception\ErrorMessage.class
 com\petapplication\repository\UserLoginInfoRepository.class
+com\petapplication\entity\QUserLoginInfo.class
 com\petapplication\utility\JWTUtils.class
 com\petapplication\PetApplicationStarter.class
 com\petapplication\exception\UnauthorizedExceptionHandler.class
