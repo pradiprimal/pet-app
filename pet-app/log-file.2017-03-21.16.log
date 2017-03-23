@@ -1,0 +1,32 @@
+11:15:13.812 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+11:15:13.835 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29176cc1'
+11:15:13.836 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+11:15:13.837 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' to allow for resolving potential circular references
+11:15:13.840 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.840 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.841 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+11:15:13.855 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'conventionErrorViewResolver' to allow for resolving potential circular references
+11:15:13.859 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.859 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.860 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'conventionErrorViewResolver'
+11:15:13.879 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration' to allow for resolving potential circular references
+11:15:13.884 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.884 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.895 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration'
+11:15:13.913 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'errorPageCustomizer' to allow for resolving potential circular references
+11:15:13.919 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.919 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.921 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'errorPageCustomizer'
+11:15:13.922 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.922 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:13.926 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'tomcatEmbeddedServletContainerFactory'
+11:15:14.261 [main] DEBUG o.s.b.c.e.t.TomcatEmbeddedServletContainerFactory - Code archive: C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot\1.5.2.RELEASE\spring-boot-1.5.2.RELEASE.jar
+11:15:14.262 [main] DEBUG o.s.b.c.e.t.TomcatEmbeddedServletContainerFactory - Code archive: C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot\1.5.2.RELEASE\spring-boot-1.5.2.RELEASE.jar
+11:15:14.262 [main] DEBUG o.s.b.c.e.t.TomcatEmbeddedServletContainerFactory - Document root: D:\working\pet-app\pet-app\src\main\webapp
+11:15:14.373 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+11:15:14.658 [localhost-startStop-1] DEBUG o.s.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+11:15:14.659 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5256 ms
+11:15:14.662 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@dcc992a]
+11:15:14.663 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@55145a71]
+11:15:14.663 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@3c788c30]
+11:15:14.664 [localhost-startStop-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@1314f272]

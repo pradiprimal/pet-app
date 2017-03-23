@@ -1,0 +1,64 @@
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+11:19:34.652 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+11:19:34.652 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+11:19:34.652 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+11:19:34.668 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+11:19:34.683 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'petInfoController'
+11:19:34.683 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'globalExceptionHandler'
+11:19:34.683 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'globalExceptionHandler'
+11:19:34.683 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.699 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'globalExceptionHandler' to allow for resolving potential circular references
+11:19:34.699 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'globalExceptionHandler'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'loginServiceImpl'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'petInfoServiceImpl'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fileProcessorUtils'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'fileProcessorUtils'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'fileProcessorUtils' to allow for resolving potential circular references
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'fileProcessorUtils'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'JWTUtils'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.715 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration' to allow for resolving potential circular references
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' to allow for resolving potential circular references
+11:19:34.730 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.746 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.746 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+11:19:34.746 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+11:19:34.746 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'standardJacksonObjectMapperBuilderCustomizer'
+11:19:34.746 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.746 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+11:19:34.777 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+11:19:34.777 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+11:19:34.777 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.777 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' to allow for resolving potential circular references
+11:19:34.793 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletConfigInitParams] PropertySource with lowest search precedence

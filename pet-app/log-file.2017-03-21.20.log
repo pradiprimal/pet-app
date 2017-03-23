@@ -1,0 +1,64 @@
+11:15:15.117 [localhost-startStop-1] DEBUG o.s.b.w.f.OrderedHiddenHttpMethodFilter - Filter 'hiddenHttpMethodFilter' configured successfully
+11:15:15.126 [localhost-startStop-1] DEBUG o.s.b.w.f.OrderedCharacterEncodingFilter - Initializing filter 'characterEncodingFilter'
+11:15:15.126 [localhost-startStop-1] DEBUG o.s.b.w.f.OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured successfully
+11:15:15.138 [main] DEBUG o.s.w.c.s.StandardServletEnvironment - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+11:15:15.146 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactory'
+11:15:15.147 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'entityManagerFactory'
+11:15:15.147 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.147 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+11:15:15.148 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+11:15:15.148 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.148 [main] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$2d63177] - unable to determine constructor/method parameter names
+11:15:15.149 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:15:15.150 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'dataSource'
+11:15:15.150 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.150 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat'
+11:15:15.150 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat'
+11:15:15.150 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.151 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' to allow for resolving potential circular references
+11:15:15.157 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.157 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.158 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat'
+11:15:15.160 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+11:15:15.160 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+11:15:15.160 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.164 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' to allow for resolving potential circular references
+11:15:15.173 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+11:15:15.173 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+11:15:15.173 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:15.176 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:15.176 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [random] PropertySource with lowest search precedence
+11:15:15.176 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [applicationConfig: [classpath:/application.properties]] PropertySource with lowest search precedence
+11:15:15.176 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [class path resource [file-location.properties]] PropertySource with lowest search precedence
+11:15:15.176 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [localProperties] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [random] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [applicationConfig: [classpath:/application.properties]] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [class path resource [file-location.properties]] PropertySource with lowest search precedence
+11:15:15.178 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [localProperties] PropertySource with lowest search precedence
+11:15:15.180 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.username' in [applicationConfig: [classpath:/application.properties]] with type [String]
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [random] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [applicationConfig: [classpath:/application.properties]] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [class path resource [file-location.properties]] PropertySource with lowest search precedence
+11:15:15.181 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [localProperties] PropertySource with lowest search precedence
+11:15:15.182 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.password' in [applicationConfig: [classpath:/application.properties]] with type [String]
+11:15:15.182 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+11:15:15.182 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+11:15:15.182 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:15.182 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:15.183 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [random] PropertySource with lowest search precedence
+11:15:15.183 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [applicationConfig: [classpath:/application.properties]] PropertySource with lowest search precedence
+11:15:15.183 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [class path resource [file-location.properties]] PropertySource with lowest search precedence
+11:15:15.183 [main] DEBUG o.s.core.env.MutablePropertySources - Adding [localProperties] PropertySource with lowest search precedence
+11:15:15.183 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in [applicationConfig: [classpath:/application.properties]] with type [String]
+11:15:15.195 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+11:15:15.199 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.199 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:15.202 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'

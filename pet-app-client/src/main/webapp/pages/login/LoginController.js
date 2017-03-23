@@ -6,6 +6,8 @@ angular.module('PetApp').controller('LoginController', function ($scope, LoginSe
         password: ''
     };
 
+    vm.errorMessage = '';
+
     vm.authenticate = authenticate;
 
     function authenticate() {
@@ -19,7 +21,9 @@ angular.module('PetApp').controller('LoginController', function ($scope, LoginSe
                             $location.path("/dashboard");
                         },
                         function (error) {
-                            console.log(error.data);
+                            console.log(error);
+                            vm.errorMessage = error.data.message;
+                            console.log(error.data.message);
                         }
                 );
     }

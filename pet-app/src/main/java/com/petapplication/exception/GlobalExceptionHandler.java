@@ -20,21 +20,21 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorMessage> handelGenericException(Exception e) {
+    public ResponseEntity<ErrorMessage> handleGenericException(Exception e) {
         e.printStackTrace();
         return new ResponseEntity<>(new ErrorMessage("Something Wrong Check Server Log.", ""), HttpStatus.EXPECTATION_FAILED);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public DataBindingErrorMessage handelMethodArgumentNotValidException(MethodArgumentNotValidException exception) {
+    public DataBindingErrorMessage handleMethodArgumentNotValidException(MethodArgumentNotValidException exception) {
         exception.printStackTrace();
         return dataBindingErrorMessagesConverter(exception.getBindingResult());
     }
 
     @ExceptionHandler(ContentConflictException.class)
     @ResponseStatus(HttpStatus.CONFLICT)
-    public SingleValueResponse handelContentConflictException(RuntimeException runtimeException) {
+    public SingleValueResponse handleContentConflictException(RuntimeException runtimeException) {
         runtimeException.printStackTrace();
         SingleValueResponse singleValueResponse = new SingleValueResponse(runtimeException.getMessage());
         return singleValueResponse;
@@ -42,7 +42,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(ContentNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public SingleValueResponse handelContentNotFoundException(RuntimeException runtimeException) {
+    public SingleValueResponse handleContentNotFoundException(RuntimeException runtimeException) {
         runtimeException.printStackTrace();
         SingleValueResponse singleValueResponse = new SingleValueResponse(runtimeException.getMessage());
         return singleValueResponse;

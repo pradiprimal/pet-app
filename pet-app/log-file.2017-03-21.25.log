@@ -1,0 +1,128 @@
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:15:18.884 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+11:15:18.899 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'authenticationController'
+11:15:18.899 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'petInfoController'
+11:15:18.899 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'petInfoController'
+11:15:18.899 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.907 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'petInfoServiceImpl'
+11:15:18.908 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'petInfoServiceImpl'
+11:15:18.908 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.910 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'petInfoRepository'
+11:15:18.910 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'petInfoRepository'
+11:15:18.910 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.911 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]: PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+11:15:18.911 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'petInfoRepository' to allow for resolving potential circular references
+11:15:18.911 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'petInfoRepository': PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+11:15:18.911 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#37af24cb'
+11:15:18.911 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.912 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#7926352f'
+11:15:18.912 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.913 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [META-INF/jpa-named-queries.properties] to resources []
+11:15:18.913 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '(inner bean)#7926352f'
+11:15:18.913 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.913 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.915 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#7926352f'
+11:15:18.915 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.915 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.916 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.916 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.917 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#37af24cb'
+11:15:18.917 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#670342a2'
+11:15:18.917 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.917 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.917 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.918 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#670342a2'
+11:15:18.918 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#7742a45c'
+11:15:18.918 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.918 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+11:15:18.919 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.919 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.920 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#7742a45c'
+11:15:18.920 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jpaMappingContext'
+11:15:18.920 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'petInfoRepository'
+11:15:18.920 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.921 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.922 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.922 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.923 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@7ed49a7f
+11:15:18.924 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.925 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.926 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByOwnerEmail
+11:15:18.926 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query PetInfo.findByOwnerEmail
+11:15:18.927 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query PetInfo.findByOwnerEmail
+11:15:18.929 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByOwnerNo
+11:15:18.930 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query PetInfo.findByOwnerNo
+11:15:18.933 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query PetInfo.findByOwnerNo
+11:15:18.936 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@5bda157e]
+11:15:18.957 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.958 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.958 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'petInfoRepository'
+11:15:18.958 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.958 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.959 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'petInfoServiceImpl' via constructor to bean named 'petInfoRepository'
+11:15:18.959 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'petInfoServiceImpl' to allow for resolving potential circular references
+11:15:18.961 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.961 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.963 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.deletePetInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+11:15:18.964 [main] DEBUG o.s.a.a.a.AnnotationAwareAspectJAutoProxyCreator - Creating implicit proxy for bean 'petInfoServiceImpl' with 0 common interceptors and 1 specific interceptors
+11:15:18.964 [main] DEBUG o.s.aop.framework.CglibAopProxy - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.petapplication.service.impl.PetInfoServiceImpl@7a388990]
+11:15:18.964 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public com.petapplication.entity.PetInfo com.petapplication.service.impl.PetInfoServiceImpl.findById(long)
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public boolean com.petapplication.service.impl.PetInfoServiceImpl.isMobileNoExist(java.lang.String)
+11:15:18.965 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.deletePetInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public void com.petapplication.service.impl.PetInfoServiceImpl.deletePetInfo(long)
+11:15:18.965 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.getPetInfos' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.util.List com.petapplication.service.impl.PetInfoServiceImpl.getPetInfos()
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public boolean com.petapplication.service.impl.PetInfoServiceImpl.isEmailExist(java.lang.String)
+11:15:18.965 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.savePetInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public boolean com.petapplication.service.impl.PetInfoServiceImpl.savePetInfo(com.petapplication.entity.PetInfo)
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+11:15:18.965 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:15:18.966 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+11:15:18.977 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'petInfoServiceImpl'
+11:15:18.977 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'petInfoController' via constructor to bean named 'petInfoServiceImpl'
+11:15:18.978 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'petInfoController' to allow for resolving potential circular references
+11:15:18.980 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.980 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.981 [main] DEBUG o.s.a.a.a.AnnotationAwareAspectJAutoProxyCreator - Creating implicit proxy for bean 'petInfoController' with 0 common interceptors and 2 specific interceptors
+11:15:18.982 [main] DEBUG o.s.aop.framework.CglibAopProxy - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.petapplication.controller.PetInfoController@6839203b]
+11:15:18.983 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.updatePetInfo(com.petapplication.requestDTO.PetInfoRequestDTO)
+11:15:18.985 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.deletePetInfo(java.lang.Long)
+11:15:18.985 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.savePetInfo(com.petapplication.requestDTO.PetInfoRequestDTO)
+11:15:18.986 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.getAllPetInfo()
+11:15:18.986 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+11:15:18.986 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+11:15:18.986 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+11:15:18.986 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+11:15:18.986 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+11:15:18.987 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+11:15:18.987 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()

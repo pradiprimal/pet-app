@@ -1,0 +1,16 @@
+11:36:53.797 [http-nio-8080-exec-2] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:36:53.844 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+11:36:53.844 [http-nio-8080-exec-2] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@6cea4f3e
+11:37:16.405 [http-nio-8080-exec-3] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@6cea4f3e
+11:37:16.406 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/get-all]
+11:37:16.407 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/get-all
+11:37:16.408 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<com.petapplication.responseDTO.PetInfoResponseDTO>> com.petapplication.controller.PetInfoController.getAllPetInfo()]
+11:37:16.408 [http-nio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'petInfoController'
+11:37:16.409 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/get-all] is: -1
+11:37:16.409 [http-nio-8080-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+11:37:16.425 [http-nio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'handelLoginAOP'
+11:37:16.426 [http-nio-8080-exec-3] INFO  c.p.controller.PetInfoController - accessToken accessTokeneyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMgdGhhcGEiLCJpZCI6MSwicHJvZmlsZSI6MSwic3RhdHVzIjoiWSIsImV4cCI6MTQ5MDA3NTU0Mn0.CbfGI0gXqVIMfzfO3faUmbhhUA4WIY7bR1wQQJls7AM
+11:37:16.429 [http-nio-8080-exec-3] DEBUG c.p.controller.PetInfoController - joinPoint joinPointorg.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint$SourceLocationImpl@297c845e
+11:37:16.713 [http-nio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+11:37:16.729 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [org.hibernate.jpa.internal.EntityManagerImpl@395f8781] for JPA transaction
+11:37:16.729 [http-nio-8080-exec-3] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.petapplication.service.impl.PetInfoServiceImpl.getPetInfos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''

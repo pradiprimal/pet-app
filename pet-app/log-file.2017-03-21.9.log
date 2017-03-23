@@ -1,0 +1,64 @@
+11:15:11.553 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.566 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.567 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.568 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.569 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration'
+11:15:11.570 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor()
+11:15:11.570 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+11:15:11.570 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+11:15:11.571 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.574 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.574 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.transactionManager()
+11:15:11.575 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.582 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.583 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.jpaVendorAdapter()
+11:15:11.584 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.585 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.585 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.entityManagerFactoryBuilder()
+11:15:11.585 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.586 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.586 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.586 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.entityManagerFactory()
+11:15:11.588 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+11:15:11.589 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.590 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+11:15:11.590 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.591 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.594 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.595 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration.persistenceExceptionTranslationPostProcessor()
+11:15:11.595 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.596 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.596 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.603 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.604 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.605 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.606 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.607 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.607 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.608 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.609 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+11:15:11.649 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+11:15:11.649 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+11:15:11.649 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+11:15:11.652 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+11:15:11.652 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+11:15:11.655 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages' to allow for resolving potential circular references
+11:15:11.655 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+11:15:11.656 [main] DEBUG o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.petapplication'. Automatic @Repository and @Entity scanning is enabled.
+11:15:11.657 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [com/petapplication/] to resources [URL [file:/D:/working/pet-app/pet-app/target/classes/com/petapplication/]]
+11:15:11.657 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\working\pet-app\pet-app\target\classes\com\petapplication]
+11:15:11.657 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.657 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\aop] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.658 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\config] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.658 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\controller] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.659 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\entity] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.662 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\entity\converter] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.663 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\entity\converter\utility] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.664 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\exception] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.667 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\repository] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.668 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\requestDTO] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.668 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\resource] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.669 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\resource\constant] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.673 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\responseDTO] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.674 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\service] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]
+11:15:11.675 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [D:\working\pet-app\pet-app\target\classes\com\petapplication\service\impl] for files matching pattern [D:/working/pet-app/pet-app/target/classes/com/petapplication/**/*.class]

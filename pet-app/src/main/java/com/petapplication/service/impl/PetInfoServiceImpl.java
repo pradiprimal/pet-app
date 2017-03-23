@@ -27,7 +27,7 @@ public class PetInfoServiceImpl implements PetInfoService {
 
     @Override
     @Transactional(readOnly = false)
-    public void deletePetInfo(long id) {
+    public void deletePetInfo(Long id) {
         petInfoRepository.delete(id);
     }
 
@@ -48,7 +48,7 @@ public class PetInfoServiceImpl implements PetInfoService {
     }
 
     @Override
-    public PetInfo findById(long id) {
+    public PetInfo findById(Long id) {
         return petInfoRepository.findOne(id);
     }
 

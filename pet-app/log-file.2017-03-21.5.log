@@ -1,0 +1,32 @@
+11:15:11.169 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.201 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+11:15:11.209 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.209 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.224 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry' to allow for resolving potential circular references
+11:15:11.226 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.229 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.233 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer()
+11:15:11.236 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.237 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.238 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+11:15:11.238 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration.standardJacksonObjectMapperBuilderCustomizer()
+11:15:11.247 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.248 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+11:15:11.248 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.253 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.254 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration.jacksonObjectMapperBuilder()
+11:15:11.255 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.255 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+11:15:11.255 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+11:15:11.257 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.261 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration.jacksonObjectMapper()
+11:15:11.266 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+11:15:11.266 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.jsonComponentModule()
+11:15:11.267 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.267 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.268 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.268 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration'
+11:15:11.270 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.271 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+11:15:11.271 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration.websocketContainerCustomizer()
+11:15:11.272 [main] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration'

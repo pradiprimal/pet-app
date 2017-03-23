@@ -1,0 +1,64 @@
+11:19:34.527 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'petInfoRepository'
+11:19:34.558 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.558 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.558 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'petInfoServiceImpl' via constructor to bean named 'petInfoRepository'
+11:19:34.574 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'petInfoServiceImpl' to allow for resolving potential circular references
+11:19:34.574 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.574 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.574 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.savePetInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+11:19:34.574 [main] DEBUG o.s.a.a.a.AnnotationAwareAspectJAutoProxyCreator - Creating implicit proxy for bean 'petInfoServiceImpl' with 0 common interceptors and 1 specific interceptors
+11:19:34.574 [main] DEBUG o.s.aop.framework.CglibAopProxy - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.petapplication.service.impl.PetInfoServiceImpl@61b65d54]
+11:19:34.574 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.savePetInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+11:19:34.574 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public boolean com.petapplication.service.impl.PetInfoServiceImpl.savePetInfo(com.petapplication.entity.PetInfo)
+11:19:34.574 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public com.petapplication.entity.PetInfo com.petapplication.service.impl.PetInfoServiceImpl.findById(long)
+11:19:34.574 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public boolean com.petapplication.service.impl.PetInfoServiceImpl.isEmailExist(java.lang.String)
+11:19:34.574 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public boolean com.petapplication.service.impl.PetInfoServiceImpl.isMobileNoExist(java.lang.String)
+11:19:34.574 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.getPetInfos' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+11:19:34.574 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.util.List com.petapplication.service.impl.PetInfoServiceImpl.getPetInfos()
+11:19:34.590 [main] DEBUG o.s.t.a.AnnotationTransactionAttributeSource - Adding transactional method 'com.petapplication.service.impl.PetInfoServiceImpl.deletePetInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public void com.petapplication.service.impl.PetInfoServiceImpl.deletePetInfo(long)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+11:19:34.590 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+11:19:34.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'petInfoServiceImpl'
+11:19:34.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'petInfoController' via constructor to bean named 'petInfoServiceImpl'
+11:19:34.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'petInfoController' to allow for resolving potential circular references
+11:19:34.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:34.636 [main] DEBUG o.s.a.a.a.AnnotationAwareAspectJAutoProxyCreator - Creating implicit proxy for bean 'petInfoController' with 0 common interceptors and 2 specific interceptors
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.petapplication.controller.PetInfoController@101cf747]
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.getAllPetInfo()
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.savePetInfo(com.petapplication.requestDTO.PetInfoRequestDTO)
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.deletePetInfo(java.lang.Long)
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.PetInfoController.updatePetInfo(com.petapplication.requestDTO.PetInfoRequestDTO)
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+11:19:34.636 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()

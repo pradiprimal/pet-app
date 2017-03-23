@@ -67,8 +67,12 @@
         }
     }
 </style>
-<pre>{{loginData|json}}</pre>
+<!--<pre>{{loginData|json}}</pre>-->
+
 <form name="login" novalidate="true" ng-submit="authenticate()">
+    <div>
+        <span ng-show="errorMessage.lenght !== 0" style="color: red;padding-left: 600px;">{{errorMessage}}</span>
+    </div>
     <div class="container">
         <label><b>Username</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required ng-model="loginData.userName">

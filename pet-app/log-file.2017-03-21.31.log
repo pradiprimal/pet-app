@@ -1,0 +1,128 @@
+11:15:20.136 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'jacksonGeoModule': no URL paths identified
+11:15:20.171 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration': no URL paths identified
+11:15:20.171 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified
+11:15:20.171 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified
+11:15:20.171 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'jdbcTemplate': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'namedParameterJdbcTemplate': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'characterEncodingFilter': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'multipartConfigElement': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'multipartResolver': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'serverProperties': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'duplicateServerPropertiesDetector': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'restTemplateBuilder': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.orm.jpa.SharedEntityManagerCreator#0': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'autoConfigurationReport': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'springApplicationArguments': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'springBootBanner': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'springBootLoggingSystem': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'environment': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'systemProperties': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'systemEnvironment': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'messageSource': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'servletContext': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'contextParameters': no URL paths identified
+11:15:20.172 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'contextAttributes': no URL paths identified
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'beanNameHandlerMapping'
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'resourceHandlerMapping'
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.174 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+11:15:20.180 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+11:15:20.181 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+11:15:20.181 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+11:15:20.182 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'resourceHandlerMapping' to allow for resolving potential circular references
+11:15:20.188 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:15:20.188 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:15:20.188 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.188 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.189 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'resourceHandlerMapping'
+11:15:20.189 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+11:15:20.189 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+11:15:20.189 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'defaultServletHandlerMapping'
+11:15:20.189 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.189 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.191 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'defaultServletHandlerMapping' to allow for resolving potential circular references
+11:15:20.192 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.192 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'defaultServletHandlerMapping'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcUriComponentsContributor'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+11:15:20.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+11:15:20.195 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+11:15:20.196 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.196 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.197 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUriComponentsContributor'
+11:15:20.197 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+11:15:20.197 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'httpRequestHandlerAdapter'
+11:15:20.197 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.197 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.197 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'httpRequestHandlerAdapter' to allow for resolving potential circular references
+11:15:20.200 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.200 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.200 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'httpRequestHandlerAdapter'
+11:15:20.201 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+11:15:20.201 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'simpleControllerHandlerAdapter'
+11:15:20.201 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.201 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.201 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'simpleControllerHandlerAdapter' to allow for resolving potential circular references
+11:15:20.203 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.203 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.204 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'simpleControllerHandlerAdapter'
+11:15:20.204 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+11:15:20.204 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'handlerExceptionResolver'
+11:15:20.204 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.204 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.210 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+11:15:20.210 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29176cc1: startup date [Tue Mar 21 11:15:09 NPT 2017]; root of context hierarchy
+11:15:20.215 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+11:15:20.220 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'handlerExceptionResolver' to allow for resolving potential circular references
+11:15:20.222 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.222 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'handlerExceptionResolver'
+11:15:20.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+11:15:20.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcViewResolver'
+11:15:20.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.223 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:15:20.226 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+11:15:20.227 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcViewResolver' to allow for resolving potential circular references
+11:15:20.230 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcViewResolver'
+11:15:20.231 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.231 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.231 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcViewResolver'
+11:15:20.231 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration'
+11:15:20.231 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration'
+11:15:20.231 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.232 [main] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration$$EnhancerBySpringCGLIB$$d16cf94b] - unable to determine constructor/method parameter names
+11:15:20.232 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+11:15:20.232 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+11:15:20.232 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration' to allow for resolving potential circular references
+11:15:20.235 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.235 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.237 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration'
+11:15:20.237 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'faviconHandlerMapping'
+11:15:20.237 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'faviconHandlerMapping'
+11:15:20.237 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.237 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration'
+11:15:20.241 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'faviconRequestHandler'
+11:15:20.241 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'faviconRequestHandler'
+11:15:20.241 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:20.241 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration'
+11:15:20.242 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'faviconRequestHandler' to allow for resolving potential circular references
+11:15:20.249 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'faviconRequestHandler'

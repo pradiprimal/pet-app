@@ -1,0 +1,16 @@
+11:37:42.037 [http-nio-8080-exec-5] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+11:37:42.115 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.petapplication.requestDTO.PetInfoRequestDTO] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6cc64028]
+11:37:42.131 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence'
+11:37:42.131 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence'
+11:37:42.146 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator'
+11:37:42.146 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:37:42.162 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:37:42.162 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:37:42.162 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator'
+11:37:42.162 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator'
+11:37:42.162 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:37:42.177 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:37:42.177 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:37:42.177 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator'
+11:37:42.240 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence'
+11:37:42.240 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence'

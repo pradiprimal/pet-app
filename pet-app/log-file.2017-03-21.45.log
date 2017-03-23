@@ -1,0 +1,64 @@
+11:19:36.328 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:19:36.344 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerMapping'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcValidator'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcPathMatcher'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+11:19:36.360 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcPathMatcher'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcUrlPathHelper'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUrlPathHelper'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'viewControllerHandlerMapping'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+11:19:36.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'viewControllerHandlerMapping'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'beanNameHandlerMapping'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:19:36.391 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+11:19:36.409 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Looking for URL mappings in application context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29176cc1: startup date [Tue Mar 21 11:19:20 NPT 2017]; root of context hierarchy
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'petApplicationStarter': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'handelLoginAOP': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'webConfig': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'authenticationController': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'petInfoController': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'globalExceptionHandler': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'loginServiceImpl': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'petInfoServiceImpl': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'fileProcessorUtils': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'JWTUtils': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+11:19:36.413 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified

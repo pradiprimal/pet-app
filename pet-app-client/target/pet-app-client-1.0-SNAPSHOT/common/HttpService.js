@@ -1,4 +1,4 @@
-angular.module('PetApp').service('HttpService', function ($http, $q, TokenService) {
+angular.module('PetApp').service('HttpService', function ($http, $q, TokenService, $location, $localStorage, $rootScope) {
     var service = this;
     service.url = 'http://localhost:8080/api/';
 
@@ -9,6 +9,11 @@ angular.module('PetApp').service('HttpService', function ($http, $q, TokenServic
                             return success;
                         },
                         function (error) {
+                            if (error.status === 401) {
+                                $localStorage.$reset();
+                                $rootScope.isLoggedIn = false;
+                                $location.path('login');
+                            }
                             return $q.reject(error);
                         }
                 );
@@ -20,6 +25,11 @@ angular.module('PetApp').service('HttpService', function ($http, $q, TokenServic
                             return success;
                         },
                         function (error) {
+                            if (error.status === 401) {
+                                $localStorage.$reset();
+                                $rootScope.isLoggedIn = false;
+                                $location.path('login');
+                            }
                             return $q.reject(error);
                         }
                 );
@@ -32,6 +42,11 @@ angular.module('PetApp').service('HttpService', function ($http, $q, TokenServic
                             return success;
                         },
                         function (error) {
+                            if (error.status === 401) {
+                                $localStorage.$reset();
+                                $rootScope.isLoggedIn = false;
+                                $location.path('login');
+                            }
                             return $q.reject(error);
                         }
                 );
@@ -43,6 +58,11 @@ angular.module('PetApp').service('HttpService', function ($http, $q, TokenServic
                             return success;
                         },
                         function (error) {
+                            if (error.status === 401) {
+                                $localStorage.$reset();
+                                $rootScope.isLoggedIn = false;
+                                $location.path('login');
+                            }
                             return $q.reject(error);
                         }
                 );

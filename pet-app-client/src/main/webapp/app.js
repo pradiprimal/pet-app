@@ -31,3 +31,15 @@ angular.module('PetApp').config(function ($routeProvider) {
 angular.module('PetApp').config(['$locationProvider', function ($locationProvider) {
         $locationProvider.hashPrefix('');
     }]);
+
+angular.module('PetApp').run(function ($rootScope, $location, $localStorage) {
+    if ($localStorage.isLoggedIn !== undefined) {
+        if ($localStorage.isLoggedIn === true) {
+            $rootScope.isLoggedIn = true;
+        } else {
+            $location.path('/login');
+        }
+    } else {
+        $location.path('/login');
+    }
+});

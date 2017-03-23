@@ -11,7 +11,7 @@ public interface PetInfoService {
 
     boolean savePetInfo(PetInfo petInfo);
 
-    void deletePetInfo(long id);
+    void deletePetInfo(Long id);
 
     List<PetInfo> getPetInfos();
 
@@ -19,6 +19,6 @@ public interface PetInfoService {
 
     boolean isMobileNoExist(String mobileNo);
 
-    PetInfo findById(long id);
+    PetInfo findById(Long id);
 
 }

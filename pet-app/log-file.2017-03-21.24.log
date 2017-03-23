@@ -1,0 +1,128 @@
+11:15:18.194 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.petapplication.aop.HandelLoginAOP]: AutowiredFieldElement for private javax.servlet.http.HttpServletRequest com.petapplication.aop.HandelLoginAOP.servletRequest
+11:15:18.200 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'handelLoginAOP' to allow for resolving potential circular references
+11:15:18.202 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'handelLoginAOP': AutowiredFieldElement for private javax.servlet.http.HttpServletRequest com.petapplication.aop.HandelLoginAOP.servletRequest
+11:15:18.211 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'handelLoginAOP' to bean named 'com.sun.proxy.$Proxy79@5ad6cc21'
+11:15:18.212 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'handelLoginAOP'
+11:15:18.212 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webConfig'
+11:15:18.212 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'webConfig'
+11:15:18.212 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.213 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'webConfig' to allow for resolving potential circular references
+11:15:18.219 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.219 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.220 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'webConfig'
+11:15:18.220 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'authenticationController'
+11:15:18.220 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'authenticationController'
+11:15:18.220 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.228 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'loginServiceImpl'
+11:15:18.229 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'loginServiceImpl'
+11:15:18.229 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.230 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userLoginInfoRepository'
+11:15:18.230 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'userLoginInfoRepository'
+11:15:18.230 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.239 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]: PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+11:15:18.240 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'userLoginInfoRepository' to allow for resolving potential circular references
+11:15:18.240 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'userLoginInfoRepository': PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+11:15:18.241 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#4bb147ec'
+11:15:18.241 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.242 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#68ef01a5'
+11:15:18.242 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.247 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [META-INF/jpa-named-queries.properties] to resources []
+11:15:18.247 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '(inner bean)#68ef01a5'
+11:15:18.247 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.247 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.248 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#68ef01a5'
+11:15:18.249 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.249 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.254 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.254 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.255 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#4bb147ec'
+11:15:18.255 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#322e49ee'
+11:15:18.255 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.260 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.260 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.260 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#322e49ee'
+11:15:18.261 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#2d5a1588'
+11:15:18.261 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.261 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+11:15:18.261 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.261 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.266 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSourceInitializer'
+11:15:18.266 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [data-all.sql] to resources []
+11:15:18.267 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [data.sql] to resources []
+11:15:18.284 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.285 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.286 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#2d5a1588'
+11:15:18.286 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaMappingContext'
+11:15:18.286 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jpaMappingContext'
+11:15:18.286 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.286 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jpaMappingContext' to allow for resolving potential circular references
+11:15:18.291 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'jpaMappingContext'
+11:15:18.292 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+11:15:18.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jpaMappingContext'
+11:15:18.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.396 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.400 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'userLoginInfoRepository'
+11:15:18.404 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.548 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.550 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.551 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.551 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.551 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.575 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.576 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.585 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@2c30c81d
+11:15:18.673 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+11:15:18.715 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+11:15:18.750 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByEmailAndPassword
+11:15:18.755 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query UserLoginInfo.findByEmailAndPassword
+11:15:18.756 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query UserLoginInfo.findByEmailAndPassword
+11:15:18.805 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@6274f21c]
+11:15:18.810 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.810 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.814 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'userLoginInfoRepository'
+11:15:18.816 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.816 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.819 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'loginServiceImpl' via constructor to bean named 'userLoginInfoRepository'
+11:15:18.819 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'loginServiceImpl' to allow for resolving potential circular references
+11:15:18.825 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.825 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.825 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'loginServiceImpl'
+11:15:18.826 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'authenticationController' via constructor to bean named 'loginServiceImpl'
+11:15:18.828 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [com.petapplication.controller.AuthenticationController]: AutowiredMethodElement for public void com.petapplication.controller.AuthenticationController.setjWTGeneratorUtils(com.petapplication.utility.JWTUtils)
+11:15:18.828 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'authenticationController' to allow for resolving potential circular references
+11:15:18.828 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'authenticationController': AutowiredMethodElement for public void com.petapplication.controller.AuthenticationController.setjWTGeneratorUtils(com.petapplication.utility.JWTUtils)
+11:15:18.830 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'JWTUtils'
+11:15:18.830 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'JWTUtils'
+11:15:18.830 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.831 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'JWTUtils' to allow for resolving potential circular references
+11:15:18.832 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.832 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.832 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'JWTUtils'
+11:15:18.833 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'authenticationController' to bean named 'JWTUtils'
+11:15:18.833 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.833 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:15:18.859 [main] DEBUG o.s.a.a.a.AnnotationAwareAspectJAutoProxyCreator - Creating implicit proxy for bean 'authenticationController' with 0 common interceptors and 2 specific interceptors
+11:15:18.863 [main] DEBUG o.s.aop.framework.CglibAopProxy - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.petapplication.controller.AuthenticationController@42297bdf]
+11:15:18.874 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public org.springframework.http.ResponseEntity com.petapplication.controller.AuthenticationController.authenticate(com.petapplication.requestDTO.LoginRequestDTO)
+11:15:18.875 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public void com.petapplication.controller.AuthenticationController.setjWTGeneratorUtils(com.petapplication.utility.JWTUtils)
+11:15:18.875 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Found 'hashCode' method: public native int java.lang.Object.hashCode()
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+11:15:18.876 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+11:15:18.877 [main] DEBUG o.s.aop.framework.CglibAopProxy - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
