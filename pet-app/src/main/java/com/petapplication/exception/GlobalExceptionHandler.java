@@ -1,9 +1,13 @@
 package com.petapplication.exception;
 
+import com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException;
 import com.petapplication.responseDTO.SingleValueResponse;
 import io.jsonwebtoken.ExpiredJwtException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import org.hibernate.exception.ConstraintViolationException;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -69,6 +73,15 @@ public class GlobalExceptionHandler {
     public SingleValueResponse handleExpiredJwtException(RuntimeException exception) {
         exception.printStackTrace();
         SingleValueResponse singleValueResponse = new SingleValueResponse("Token Expired");
+        return singleValueResponse;
+    }
+
+    @ExceptionHandler({SQLException.class,DataIntegrityViolationException.class})
+    @ResponseStatus(HttpStatus.CONFLICT)
+    public SingleValueResponse handleConstraintViolationException(Exception exception) {
+        System.out.println("============Called!!!!!!!!===============");
+        exception.printStackTrace();
+        SingleValueResponse singleValueResponse = new SingleValueResponse(exception.getMessage());
         return singleValueResponse;
     }
 

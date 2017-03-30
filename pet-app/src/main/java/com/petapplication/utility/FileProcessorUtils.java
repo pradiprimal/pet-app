@@ -22,7 +22,7 @@ import org.springframework.util.Base64Utils;
 @Component
 public class FileProcessorUtils {
 
-    public static final String FILE_DIRECTIVE = "D://petImage";
+    public static final String FILE_DIRECTIVE = "E://petImage";
 
     public static final int BUFFER_SIZE = 1024000;
 

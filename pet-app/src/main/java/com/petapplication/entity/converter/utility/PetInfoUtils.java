@@ -20,14 +20,14 @@ public class PetInfoUtils {
         petInfo.setAddress(petInfoRequestDTO.getAddress());
         petInfo.setId(petInfoRequestDTO.getId());
         petInfo.setName(petInfoRequestDTO.getName());
-        if (petInfoService.isEmailExist(petInfoRequestDTO.getOwnerEmail())) {
-            throw new ContentConflictException("Sorry! email address '" + petInfoRequestDTO.getOwnerEmail() + "' already exist.");
-        }
+//        if (petInfoService.isEmailExist(petInfoRequestDTO.getOwnerEmail())) {
+//            throw new ContentConflictException("Sorry! email address '" + petInfoRequestDTO.getOwnerEmail() + "' already exist.");
+//        }
         petInfo.setOwnerEmail(petInfoRequestDTO.getOwnerEmail());
         petInfo.setOwnerName(petInfoRequestDTO.getOwnerName());
-        if (petInfoService.isMobileNoExist(petInfoRequestDTO.getOwnerNo())) {
-            throw new ContentConflictException("Sorry! mobile no '" + petInfoRequestDTO.getOwnerNo() + "' already exist.");
-        }
+//        if (petInfoService.isMobileNoExist(petInfoRequestDTO.getOwnerNo())) {
+//            throw new ContentConflictException("Sorry! mobile no '" + petInfoRequestDTO.getOwnerNo() + "' already exist.");
+//        }
         petInfo.setOwnerNo(petInfoRequestDTO.getOwnerNo());
         if (petInfoRequestDTO.getImage() != null && !petInfoRequestDTO.getImage().isEmpty()) {
             petInfo.setImagePath(FileProcessorUtils.writeImageAndReturnPath(petInfoRequestDTO.getImage()));

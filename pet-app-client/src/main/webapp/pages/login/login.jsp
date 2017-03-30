@@ -69,7 +69,7 @@
 </style>
 <!--<pre>{{loginData|json}}</pre>-->
 
-<form name="login" novalidate="true" ng-submit="authenticate()">
+<form name="login" novalidate="true" ng-submit="authenticate()"  ng-hide="isLoggedIn">
     <div>
         <span ng-show="errorMessage.lenght !== 0" style="color: red;padding-left: 600px;">{{errorMessage}}</span>
     </div>

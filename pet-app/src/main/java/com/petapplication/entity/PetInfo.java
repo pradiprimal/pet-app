@@ -29,10 +29,10 @@ public class PetInfo extends ModelBase {
     @Column(name = "owner_name", nullable = false)
     private String ownerName;
 
-    @Column(name = "owner_no", nullable = false)
+    @Column(name = "owner_no", nullable = false, unique = true)
     private String ownerNo;
 
-    @Column(name = "owner_email", nullable = false)
+    @Column(name = "owner_email", nullable = false, unique = true)
     private String ownerEmail;
 
     @Column(name = "address", nullable = false)
