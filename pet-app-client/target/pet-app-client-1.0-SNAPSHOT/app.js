@@ -4,7 +4,8 @@ angular.module('PetApp', [
     'naif.base64',
     'ngTable',
     'ui.bootstrap',
-    'ngStorage'
+    'ngStorage',
+    'ngMessages'
 ]);
 
 angular.module('PetApp').config(function ($routeProvider) {

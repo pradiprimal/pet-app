@@ -75,11 +75,20 @@
     </div>
     <div class="container">
         <label><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required ng-model="loginData.userName">
-
+        <input type="text" placeholder="Enter Username" name="uname" required ng-model="loginData.userName" ng-minlength="3" ng-maxlength="30">
+        <!--        <div ng-if="login.uname.$dirty">
+                    <span ng-show="login.uname.$error.required">This field is required.</span>
+                    <span ng-show="login.uname.$error.minlength">Username is too short.</span>
+                    <span ng-show="login.uname.$error.maxlength">Username is too long.</span>
+                </div>-->
+        <div ng-messages="login.uname.$error" ng-if="login.uname.$dirty">
+            <div ng-message="required">This field is required.</div>
+            <div ng-message="minlength">Username is too short.</div>
+            <div ng-message="maxlength">Username is too long.</div>
+        </div>
         <label><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required ng-model="loginData.password">
 
-        <button type="submit">Login</button>
+        <button type="submit" ng-disabled="login.$invalid">Login</button>
     </div>
 </form>

@@ -19,6 +19,22 @@ public class DataBindingErrorMessage extends ModelBase {
 
     List<Error> errors;
 
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public List<Error> getErrors() {
+        return errors;
+    }
+
+    public void setErrors(List<Error> errors) {
+        this.errors = errors;
+    }
+
     class Error {
 
         private String fieldName;

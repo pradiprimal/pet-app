@@ -27,7 +27,8 @@ public class HandleLoginAOP {
     private HttpServletRequest servletRequest;
 
     @Before("within(com.petapplication.controller.*) "
-            + "&& !execution(* com.petapplication.controller.AuthenticationController.authenticate(..))")
+            + "&& !execution(* com.petapplication.controller.AuthenticationController.authenticate(..))"
+            +"&& !execution(* com.petapplication.controller.TestConnectionApiController.*(..))")
     public void handelTokenBasedAuth(JoinPoint joinPoint) {
         String accessToken = servletRequest.getParameter("accessToken");
         if (accessToken != null && !accessToken.isEmpty()) {
@@ -37,8 +38,10 @@ public class HandleLoginAOP {
         }
     }
 
-    @Pointcut("execution(* *(..)) && within(com.petapplication..*)")
+ @Pointcut("execution(* *(..)) && within(com.petapplication..*) && !execution(* com.petapplication.scheduler.OfflineFileReaderScheduler.*(..))")
+    //@Pointcut("within(com.petapplication..*) && !execution(* com.petapplication.scheduler.OfflineFileReaderScheduler.*(..))")
     public void logging() {
+
     }
 
     @Before("logging()")

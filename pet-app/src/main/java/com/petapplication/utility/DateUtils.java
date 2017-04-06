@@ -20,7 +20,7 @@ public class DateUtils {
     public static Date addFiveMinuteToCurrentDate() {
         Long millisecond = Long.valueOf(getCurrentMillisecond(new Date()));
         System.out.println(millisecond + 3000000);
-        return new Date(millisecond + 300000);
+        return new Date(millisecond + 30000000);
     }
     public static void main(String[] args) {
         addFiveMinuteToCurrentDate();

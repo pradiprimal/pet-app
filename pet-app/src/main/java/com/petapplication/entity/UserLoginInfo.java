@@ -50,4 +50,67 @@ public class UserLoginInfo extends ModelBase {
     @Column(name = "role", nullable = false)
     private Character role;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Character getStatus() {
+        return status;
+    }
+
+    public void setStatus(Character status) {
+        this.status = status;
+    }
+
+    public Date getLoginDateTime() {
+        return loginDateTime;
+    }
+
+    public void setLoginDateTime(Date loginDateTime) {
+        this.loginDateTime = loginDateTime;
+    }
+
+    public Long getProfileId() {
+        return profileId;
+    }
+
+    public void setProfileId(Long profileId) {
+        this.profileId = profileId;
+    }
+
+    public Character getRole() {
+        return role;
+    }
+
+    public void setRole(Character role) {
+        this.role = role;
+    }
 }

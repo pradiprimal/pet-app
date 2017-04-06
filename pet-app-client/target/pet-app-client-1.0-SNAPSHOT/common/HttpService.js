@@ -68,4 +68,3 @@ angular.module('PetApp').service('HttpService', function ($http, $q, TokenServic
                 );
     };
 });
-

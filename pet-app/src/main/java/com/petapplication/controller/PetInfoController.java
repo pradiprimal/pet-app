@@ -10,6 +10,8 @@ import com.petapplication.responseDTO.PetInfoResponseDTO;
 import com.petapplication.service.PetInfoService;
 import java.util.List;
 import javax.validation.Valid;
+
+import com.petapplication.utility.OfflineFile;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -40,6 +42,7 @@ public class PetInfoController {
     @PostMapping(WebApiConstant.SAVE_PET_INFO)
     public ResponseEntity<Void> savePetInfo(@RequestBody @Valid PetInfoRequestDTO petInfoRequestDTO) {
         petInfoService.savePetInfo(PetInfoUtils.convertIntoEntity(petInfoRequestDTO, petInfoService));
+//        OfflineFile.writeFileToLocally(petInfoRequestDTO);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 

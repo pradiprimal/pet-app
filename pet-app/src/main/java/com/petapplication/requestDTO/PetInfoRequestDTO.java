@@ -35,4 +35,68 @@ public class PetInfoRequestDTO extends ModelBase {
     private Character status;
 
     private String image;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    public String getOwnerNo() {
+        return ownerNo;
+    }
+
+    public void setOwnerNo(String ownerNo) {
+        this.ownerNo = ownerNo;
+    }
+
+    public String getOwnerEmail() {
+        return ownerEmail;
+    }
+
+    public void setOwnerEmail(String ownerEmail) {
+        this.ownerEmail = ownerEmail;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Character getStatus() {
+        return status;
+    }
+
+    public void setStatus(Character status) {
+        this.status = status;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 }
