@@ -27,6 +27,13 @@
     </tbody>
 </table>-->
 <div>
+    <span>total Pets {{petCounts}}</span>
+</div>
+<div>
+    <input type="text" ng-bind="message"/>
+    <button ng-click="webSocketTest()">Message</button>
+</div>
+<div>
     <div ng-show="errorMessage.lenght !== 0"><span style="color: red">{{errorMessage}}</span></div>
     <table ng-table="tableParams" class="table table-condensed table-bordered table-striped">
         <tr ng-repeat="row in $data">

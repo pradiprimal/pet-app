@@ -20,7 +20,7 @@ public class OfflineFileReaderScheduler {
 
     private static final String API = "http://localhost:8080/api/save/?accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJpZCI6MSwicHJvZmlsZSI6MSwic3RhdHVzIjoiYSIsImV4cCI6MTQ5MTQzODI1NX0.ZSyQjCtyGI7v9gzxvbMe9GQn0FMR2mR_zGY58FHgzxM";
 
-    @Scheduled(fixedRate = 5000)
+//    @Scheduled(fixedRate = 5000)
     public void readLocalFile() {
         if (CheckServerConnection.isServerHasConnection()) {
             processFile();

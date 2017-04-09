@@ -63,7 +63,7 @@ public class PetInfoUtils {
         petInfoResponseDTO.setName(petInfo.getName());
         petInfoResponseDTO.setOwnerEmail(petInfo.getOwnerEmail());
         petInfoResponseDTO.setOwnerNo(petInfo.getOwnerNo());
-        petInfoResponseDTO.setImagePath(FileProcessorUtils.decodeImageIntoString(petInfo.getImagePath()));
+//        petInfoResponseDTO.setImagePath(FileProcessorUtils.decodeImageIntoString(petInfo.getImagePath()));
         petInfoResponseDTO.setOwnerName(petInfo.getOwnerName());
         petInfoResponseDTO.setStatus(petInfo.getStatus());
         return petInfoResponseDTO;

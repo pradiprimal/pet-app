@@ -1,5 +1,5 @@
 angular.module('PetApp').controller('PetManagementController', function ($scope, PetManagementService,
-        NgTableParams, $uibModal) {
+        NgTableParams, $uibModal, $stomp) {
     var vm = $scope;
 
     vm.petInfo = {
@@ -22,6 +22,7 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
 
     vm.serverSideMessage = '';
 
+    vm.message = '';
 
 
     vm.savePetInfo = savePetInfo;
@@ -31,6 +32,7 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
     vm.editPetInfo = editPetInfo;
 
     vm.deletePetInfo = deletePetInfo;
+    vm.webSocketTest = webSocketTest;
 
 
 
@@ -154,6 +156,27 @@ angular.module('PetApp').controller('PetManagementController', function ($scope,
             address: '',
             image: ''
         };
+    }
+    $scope.petCounts = '';
+
+    $scope.message = '';
+
+    webSocketTest();
+    function webSocketTest() {
+        $scope.petCounts = '';
+
+        $stomp.connect('http://localhost:8080/pet-app', {})
+                .then(function (frame) {
+                    console.log(frame);
+                    var subscription = $stomp.subscribe('/topic/pet-count',
+                            function (payload, headers, res) {
+                                console.log(payload);
+                                $scope.petCounts = payload;
+                                $scope.$apply($scope.petCounts);
+                            });
+
+                    $stomp.send('/app/pet', vm.message);
+                });
     }
 
 });

@@ -4,5 +4,9 @@ angular.module('PetApp').service('LoginService', function (HttpService) {
     service.authenticate = function (data) {
         return HttpService.post("authenticate/",data);
     };
+    
+    service.fetchUserMenu=function (){
+        return HttpService.get("menus/");  
+    };
 });
     

@@ -20,6 +20,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js"></script>
         <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.2/angular-messages.min.js"></script>
+        <script src="pages/js/ng-stomp.standalone.min.js"></script>
         <script src="app.js"></script>
         <script src="common/directive/fileUpload.js"></script>
         <script src="pages/js/angular-base64.min.js"></script>
