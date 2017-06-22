@@ -26,19 +26,19 @@
         </tr>
     </tbody>
 </table>-->
-<div>
+<!--<div>
     <span>total Pets {{petCounts}}</span>
 </div>
 <div>
     <input type="text" ng-bind="message"/>
     <button ng-click="webSocketTest()">Message</button>
-</div>
+</div>-->
 <div>
     <div ng-show="errorMessage.lenght !== 0"><span style="color: red">{{errorMessage}}</span></div>
     <table ng-table="tableParams" class="table table-condensed table-bordered table-striped">
         <tr ng-repeat="row in $data">
             <td data-title="'S.N'">{{$index + 1}}</td>
-            <td data-title="'Image'"><img ng-src="data:image/;base64,{{row.imagePath}}" style="width: 50px;height: 50px"></td>
+            <td data-title="'Image'"><img ng-src="data:image/png;base64,{{row.imagePath}}" style="width: 50px;height: 50px"></td>
             <td data-title="'Name'" filter="{name: 'text'}" sortable="'name'">{{row.name}}</td>
             <td data-title="'Owner Name'">{{row.ownerName}}</td>
             <td data-title="'Owner No'" filter="{ownerNo: 'text'}" sortable="'ownerNo'">{{row.ownerNo}}</td>

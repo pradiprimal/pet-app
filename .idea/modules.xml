@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/generic-search/generic-search.iml" filepath="$PROJECT_DIR$/generic-search/generic-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genericsearch.iml" filepath="$PROJECT_DIR$/genericsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/pet-app/pet-app.iml" filepath="$PROJECT_DIR$/pet-app/pet-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pet-app-client/pet-app-client.iml" filepath="$PROJECT_DIR$/pet-app-client/pet-app-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/pet-management.iml" filepath="$PROJECT_DIR$/pet-management.iml" />

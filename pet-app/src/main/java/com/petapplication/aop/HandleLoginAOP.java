@@ -13,6 +13,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 /**
@@ -23,12 +24,15 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class HandleLoginAOP {
 
-    @Autowired
+//    @Autowired
     private HttpServletRequest servletRequest;
 
-    @Before("within(com.petapplication.controller.*) "
-            + "&& !execution(* com.petapplication.controller.AuthenticationController.authenticate(..))"
-            + "&& !execution(* com.petapplication.controller.TestConnectionApiController.*(..))")
+//    @Autowired
+//    ApplicationContext applicationContext;
+
+//    @Before("within(com.petapplication.controller.*) "
+//            + "&& !execution(* com.petapplication.controller.AuthenticationController.authenticate(..))"
+//            + "&& !execution(* com.petapplication.controller.TestConnectionApiController.*(..))")
     public void handelTokenBasedAuth(JoinPoint joinPoint) {
         String accessToken = servletRequest.getParameter("accessToken");
         if (accessToken != null && !accessToken.isEmpty()) {

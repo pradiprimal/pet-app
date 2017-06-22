@@ -3,7 +3,6 @@ package com.petapplication.scheduler;
 import com.petapplication.requestDTO.PetInfoRequestDTO;
 import com.petapplication.utility.CheckServerConnection;
 import com.petapplication.utility.OfflineFile;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 

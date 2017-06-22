@@ -7,4 +7,10 @@ angular.module('PetApp').service('TokenService', function ($localStorage) {
             return service.token = "";
         }
     };
+
+    service.getMenus = function () {
+        if ($localStorage.menus !== '' && $localStorage.menus !== undefined) {
+            return $localStorage.menus;
+        }
+    };
 });

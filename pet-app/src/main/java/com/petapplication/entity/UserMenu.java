@@ -23,15 +23,18 @@ public class UserMenu extends ModelBase {
 
     @Column(name = "name", nullable = false)
     private String name;
-    
-    @Column(name = "parent_id",nullable = false)
+
+    @Column(name = "parent_id", nullable = false)
     private Long parentId;
-    
-    @Column(name = "menu_action",nullable = false)
+
+    @Column(name = "menu_action", nullable = false)
     private String menuAction;
-    
+
     @Column(name = "status")
     private Character status;
+
+    @Column(name = "user_define")
+    private Character userDefine;
 
     public Long getId() {
         return id;
@@ -72,8 +75,13 @@ public class UserMenu extends ModelBase {
     public void setStatus(Character status) {
         this.status = status;
     }
-    
-    
-    
-    
+
+    public Character getUserDefine() {
+        return userDefine;
+    }
+
+    public void setUserDefine(Character userDefine) {
+        this.userDefine = userDefine;
+    }
+
 }

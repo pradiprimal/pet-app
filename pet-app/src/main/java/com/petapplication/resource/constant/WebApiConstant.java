@@ -17,4 +17,6 @@ public class WebApiConstant {
 
     public static final String MENU = "/menus";
 
+    public static final String CREATE_TABS = "/tabs";
+
 }

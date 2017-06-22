@@ -16,6 +16,7 @@
     <modules>
         <module>pet-app</module>
         <module>pet-app-client</module>
+        <module>generic-search</module>
     </modules>
     <dependencies>
         

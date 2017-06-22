@@ -30,8 +30,12 @@
     </head>
     <body ng-app="PetApp">
         <div ng-show="isLoggedIn">
-            <a href="#/add">Add</a>
-            <a href="#/manage">Manage</a>
+            <div ng-controller="LoginController">
+                <!--<pre>{{userMenus|json}}</pre>-->
+                <div ng-repeat="menu in userMenus">
+                    <a href="{{menu.menuAction}}">{{menu.name}}</a>
+                </div>
+            </div>
         </div>
         <div ng-view="">
 

@@ -1,4 +1,4 @@
-angular.module('PetApp').controller('LoginController', function ($scope, LoginService, $localStorage, $location, $rootScope, $route) {
+angular.module('PetApp').controller('LoginController', function ($scope, LoginService, $localStorage, $location, $rootScope, $route, TokenService) {
 
     var vm = $scope;
     vm.loginData = {
@@ -11,7 +11,9 @@ angular.module('PetApp').controller('LoginController', function ($scope, LoginSe
     vm.authenticate = authenticate;
 
     vm.fetchUserMenu = fetchUserMenu;
-    
+
+    vm.userMenus = [];
+
 
     function authenticate() {
         LoginService.authenticate(vm.loginData)
@@ -31,7 +33,6 @@ angular.module('PetApp').controller('LoginController', function ($scope, LoginSe
                         }
                 );
     }
-
     function fetchUserMenu() {
         LoginService.fetchUserMenu()
                 .then(
@@ -39,11 +40,18 @@ angular.module('PetApp').controller('LoginController', function ($scope, LoginSe
                             console.log(success.data);
                             $localStorage.menus = success.data;
                             $location.path("/dashboard");
+                            getProfile();
                         },
                         function (error) {
                             console.log(error);
                         }
                 );
+    }
+
+    getProfile();
+    function getProfile() {
+        vm.userMenus = (TokenService.getMenus());
+        console.log(vm.userMenus);
     }
 
 });
